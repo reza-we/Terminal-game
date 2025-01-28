@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PR_PC\\Desktop\\test\\zombie racon city\\Dead hospital\\Dead hospital.csproj",
+      "projectUniqueName": "D:\\S.Reza\\Terminal-game\\Dead hospital\\Dead hospital.csproj",
       "projectName": "Dead hospital",
-      "projectPath": "C:\\Users\\PR_PC\\Desktop\\test\\zombie racon city\\Dead hospital\\Dead hospital.csproj",
+      "projectPath": "D:\\S.Reza\\Terminal-game\\Dead hospital\\Dead hospital.csproj",
       "packagesPath": "C:\\Users\\PR_PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PR_PC\\Desktop\\test\\zombie racon city\\Dead hospital\\obj\\",
+      "outputPath": "D:\\S.Reza\\Terminal-game\\Dead hospital\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

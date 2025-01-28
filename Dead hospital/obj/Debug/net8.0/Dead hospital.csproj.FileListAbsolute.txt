@@ -26,3 +26,18 @@ C:\Users\PR_PC\Desktop\test\zombie racon city\Dead hospital\obj\Debug\net8.0\ref
 C:\Users\PR_PC\Desktop\test\zombie racon city\Dead hospital\obj\Debug\net8.0\Dead hospital.pdb
 C:\Users\PR_PC\Desktop\test\zombie racon city\Dead hospital\obj\Debug\net8.0\Dead hospital.genruntimeconfig.cache
 C:\Users\PR_PC\Desktop\test\zombie racon city\Dead hospital\obj\Debug\net8.0\ref\Dead hospital.dll
+D:\S.Reza\Terminal-game\Dead hospital\bin\Debug\net8.0\Dead hospital.exe
+D:\S.Reza\Terminal-game\Dead hospital\bin\Debug\net8.0\Dead hospital.deps.json
+D:\S.Reza\Terminal-game\Dead hospital\bin\Debug\net8.0\Dead hospital.runtimeconfig.json
+D:\S.Reza\Terminal-game\Dead hospital\bin\Debug\net8.0\Dead hospital.dll
+D:\S.Reza\Terminal-game\Dead hospital\bin\Debug\net8.0\Dead hospital.pdb
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\Dead hospital.GeneratedMSBuildEditorConfig.editorconfig
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\Dead hospital.AssemblyInfoInputs.cache
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\Dead hospital.AssemblyInfo.cs
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\Dead hospital.csproj.CoreCompileInputs.cache
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\Dead hospital.sourcelink.json
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\Dead hospital.dll
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\refint\Dead hospital.dll
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\Dead hospital.pdb
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\Dead hospital.genruntimeconfig.cache
+D:\S.Reza\Terminal-game\Dead hospital\obj\Debug\net8.0\ref\Dead hospital.dll
