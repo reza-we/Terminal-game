@@ -126,15 +126,15 @@ class Game
         Console.WriteLine($"distant and unsettling. {Player.Name}'s mind raced, trying to piece together how he had ended up in this eerie place.\n\n");
 
         Floore2_Room1();
-    }
-    public static void Floore2_Room1()
-    {
-
-        Console.WriteLine(" 1_ Search the room\t2_ Go to the corridor\t3_ Check the window\t4_ Inventory\t5_ Menu\n\n");
-        Console.Write(" ______: ");
-        var x = Console.ReadLine();
-        int.TryParse(x, out int input);
-        switch (input)
+    }                                                                                                                    
+    public static void Floore2_Room1()                                                                                   
+    {                                                                                                                    
+                                                                                                                         
+        Console.WriteLine(" 1_ Search the room\t2_ Go to the corridor\t3_ Check the window\t4_ Inventory\t5_ Menu\n\n"); 
+        Console.Write(" ______: ");                                                                                      
+        var x = Console.ReadLine();                                                                                      
+        int.TryParse(x, out int input);                                                                                  
+        switch (input)                                                                                                   
         {
             case 1:
 
@@ -152,7 +152,7 @@ class Game
                     Console.WriteLine($" As {Player.Name} stepped into the corridor, the fluorescent lights buzzed overhead, casting a sterile glow on the ");
                     Console.WriteLine($"pale walls. He noticed a hospital map mounted on the wall, revealing he was on the second floor, where ");
                     Console.WriteLine($"each floor had five rooms. His heart raced as he spotted old bloodstains smeared on the floor, a chilling ");
-                    Console.WriteLine($"reminder of the chaos that had unfolded in this unsettling place.\n\n");
+                    Console.WriteLine($"reminder of the chaos that had unfolded in this unsettling place.\n\n\n");
                     Floor2corridor();
                 }
                 else
@@ -168,7 +168,9 @@ class Game
                 Floore2_Room1();
                 return;
             case 4:
-                Console.Clear(); Console.WriteLine($"\nYour inventory : {string.Join(" _ " , inventory)}\n\n\n\n\n"); Floore2_Room1();
+                Console.Clear();
+                Console.WriteLine($"\nYour inventory : {string.Join(" _ " , inventory)}\n\n\n\n\n");
+                Floore2_Room1();
                 return;
             case 5:
                 Console.Clear(); SMenu();
@@ -189,7 +191,57 @@ class Game
         Console.Write(" ______: ");
         var x = Console.ReadLine();
         int.TryParse(x, out int input);
-        //jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+        switch (input)
+        {
+            case 1:
+                Console.Clear();
+                Console.WriteLine($"{Player.Name} cautiously made his way down the corridor, scanning the surroundings for any signs of life. The ");
+                Console.WriteLine($"reception area loomed ahead, its desk cluttered with abandoned papers and a flickering computer screen. ");
+                Console.WriteLine($"The silence was oppressive, broken only by the distant hum of the building settling. He felt a growing ");
+                Console.WriteLine($"sense of urgency, knowing he needed to find answers in this unsettling hospital.\n\n\n");
+                Floor2corridor();
+                return;
+
+            case 2:
+                Console.Clear();
+                Console.WriteLine("You enterd to Room1 \n\n\n\n\n");
+                Floore2_Room1();
+                return;
+
+            case 3:
+                return;
+            case 4:
+                return;
+            case 5:
+                return;
+            case 6:
+                return;
+            case 7:
+                Console.Clear();
+                Console.WriteLine($"{Player.Name} approached the Nurse Call Phone mounted on the wall, hoping to summon help. He pressed the ");
+                Console.WriteLine($"button, but nothing happened—no chime, no response, just an unsettling silence that deepened his sense ");
+                Console.WriteLine($"of isolation.\n\n\n\n");
+                Floor2corridor();
+                return;
+
+            case 8:
+                return;
+            case 9:
+                return;
+            case 10:
+                Console.Clear();
+                Console.WriteLine($"\nYour inventory : {string.Join(" _ ", inventory)}\n\n\n\n\n");
+                Floor2corridor();
+                return;
+
+            case 11:
+                Console.Clear();
+                SMenu();
+                return;
+
+            default:
+                return;
+        }    
     }
 
 }
